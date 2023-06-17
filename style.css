@@ -13,8 +13,8 @@ p{
 }
 
 /* Header Section */
-.left img{
-    width: 50px;
+.left a img{
+    width: 100px;
 }
 nav {
     display: flex;
