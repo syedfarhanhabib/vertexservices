@@ -1,0 +1,270 @@
+body {
+    background-color: rgb(164, 186, 183);
+    color: rgb(8, 15, 15);
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-weight: 100;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+.left img{
+    width: 50px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(8, 15, 15);
+    color: rgb(164, 186, 183);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(164, 186, 183);
+
+}
+
+nav ul li a:hover {
+    color: white;
+    font-size: 1.03;
+}
+
+/* Home Section */
+.left {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.buttons{
+    display: inline;
+}
+#whatsapp:hover {
+    color: white;
+    font-size: 1.03;
+}
+#whatsapp{
+    background-color: rgb(68, 94, 147);
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(164, 186, 183);
+}
+#emailbutton{
+    background-color:rgb(164, 186, 183);
+    border: solid 5px;
+    border-color:rgb(68, 94, 147) ;
+    color:rgb(68, 94, 147);
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+}
+.left img {
+    width: 150px;
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0;
+    align-items: center;
+}
+.home button{
+    width: 120px;
+}
+
+.leftsection {
+    font-size: 2rem;
+}
+
+.rightsection {
+    align-content: space-around;
+}
+
+.rightsection img {
+    width: 400px;
+    margin: 60px 0;
+}
+
+.home div {
+    width: 30%;
+}
+
+.name {
+    color: rgb(68, 94, 147);
+}
+
+#element {
+    color: rgb(68, 94, 147);
+}
+
+/* About Section */
+.about {
+    background-color: rgb(8, 15, 15);
+    color: rgb(68, 94, 147);
+}
+.about h1{
+    font-size: 2rem;
+}
+
+#aboutpara {
+    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: center;
+    color: rgb(164, 186, 183);
+    font-weight: 100;
+}
+
+#aboutheading {
+    padding-top: 50px;
+    text-align: center;
+}
+
+/* Services Section */
+.services {
+    margin: 60px;
+    color:rgb(8, 15, 15);
+}
+
+/* .servicesbtn{
+    flex: mx-auto 
+    mt-16 
+     bg-indigo-500 
+     border-0 py-2 px-8 
+    hover:bg-indigo-600 rounded text-lg
+    focus:outline-none;
+}
+.servicesbtn:hover{
+    rounded text-lg
+} */
+.services h3 {
+    color: rgb(68, 94, 147);
+}
+
+.services h2 {
+    color: rgb(68, 94, 147);
+}
+
+.leftservices {
+    text-align: center;
+    justify-content: flex-start;
+}
+
+.rightservices {
+    text-align: center;
+    justify-content: flex-end;
+}
+
+/* Portfolio Section */
+.team {
+    background-color: rgb(8, 15, 15);
+    color: rgb(164, 186, 183);
+    
+}
+.team h2 {
+    color: rgb(68, 94, 147);
+}
+.text-gray-500{
+    color: rgb(164, 186, 183)
+}
+/* Contact Section */
+.contact {
+    background-color: rgb(164, 186, 183);
+    color: rgb(8, 15, 15);
+    margin: 0;
+}
+
+.contact h1 {
+    color: rgb(68, 94, 147);
+    font-size: 2rem;
+}
+
+.contactme {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.formgroup {
+    margin-bottom: 20px;
+}
+#send:hover{
+    color: white;
+}
+
+.formgroup label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formgroup input,
+.formgroup textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formgroup textarea {
+    height: 100px;
+}
+
+.formgroup button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(68, 94, 147);
+    color: rgb(164, 186, 183);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 5px;
+}
+
+
+/* Footer */
+footer {
+    background-color: rgb(8, 15, 15);
+    color: rgb(164, 186, 183);
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(164, 186, 183);
+}
+
+a:hover {
+    color: white;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 2000px) {
+
+
+}
