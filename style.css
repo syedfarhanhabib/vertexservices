@@ -1,10 +1,15 @@
 body {
-    background-color: rgb(164, 186, 183);
-    color: rgb(8, 15, 15);
-    font-family: 'Poppins', sans-serif;
+    background-color: #0B040D;
+    color: #AC91B3;
+    font-family: 'Advent Pro', sans-serif;
 }
-p{
-    font-weight: 100;
+
+p {
+    font-weight: 400;
+}
+
+hr {
+    color: #cb00fd;
 }
 
 * {
@@ -12,76 +17,74 @@ p{
     padding: 0;
 }
 
-/* Header Section */
-.left a img{
-    width: 100px;
+
+h1,
+h2 {
+    font-weight: 700;
 }
+
+/* Header Section */
+
+.left a img {
+    width: 90px;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    height: 80px;
-    background-color: rgb(8, 15, 15);
-    color: rgb(164, 186, 183);
-}
+    height: 55px;
+    display: inline;
+    color: #AC91B3;
+    font-weight: 700;
 
-nav ul {
-    display: flex;
-    justify-content: center;
 }
-
 nav ul li {
     list-style: none;
-    margin: 0 23px;
+    margin: 28px 23px;
 }
 
-nav ul li a {
+nav a {
     text-decoration: none;
-    color: rgb(164, 186, 183);
+    color: #AC91B3;
 
 }
 
-nav ul li a:hover {
+a:hover {
     color: white;
-    font-size: 1.03;
 }
+.left {
+    font-size: 6rem;
+    font-weight: 700;
+    display: flex;
+}
+.right{
+display: flex;
+}
+
+
+
 
 /* Home Section */
-.left {
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-.buttons{
+.buttons {
     display: inline;
 }
+
 #whatsapp:hover {
     color: white;
     font-size: 1.03;
 }
-#whatsapp{
-    background-color: rgb(68, 94, 147);
+
+#whatsapp {
+    background-color: #AC91B3;
     text-decoration: none;
     font-size: 0.9rem;
     padding: 5px 10px;
     border-radius: 5px;
     border: 0px;
     cursor: pointer;
-    font-family: 'Poppins', sans-serif;
-    color: rgb(164, 186, 183);
+    color: #592366;
 }
-#emailbutton{
-    background-color:rgb(164, 186, 183);
-    border: solid 5px;
-    border-color:rgb(68, 94, 147) ;
-    color:rgb(68, 94, 147);
-    font-size: 0.9rem;
-    cursor: pointer;
-    font-family: 'Poppins', sans-serif;
-    border-radius: 5px;
-}
-.left img {
-    width: 150px;
-}
+
 
 .home {
     display: flex;
@@ -89,12 +92,14 @@ nav ul li a:hover {
     margin: 120px 0;
     align-items: center;
 }
-.home button{
+
+.home button {
     width: 120px;
 }
 
 .leftsection {
     font-size: 2rem;
+    font-weight: 700;
 }
 
 .rightsection {
@@ -111,60 +116,42 @@ nav ul li a:hover {
 }
 
 .name {
-    color: rgb(68, 94, 147);
+    color: #592366;
 }
 
 #element {
-    color: rgb(68, 94, 147);
+    color: #592366;
 }
 
 /* About Section */
-.about {
-    background-color: rgb(8, 15, 15);
-    color: rgb(68, 94, 147);
-}
-.about h1{
-    font-size: 2rem;
-}
-
 #aboutpara {
     padding-bottom: 60px;
     padding-top: 20px;
     padding-right: 40px;
     padding-left: 40px;
     text-align: center;
-    color: rgb(164, 186, 183);
+    color: white;
     font-weight: 100;
 }
 
 #aboutheading {
     padding-top: 50px;
     text-align: center;
+    color: #592366;
+    font-size: 2rem;
 }
 
 /* Services Section */
-.services {
+#services {
     margin: 60px;
-    color:rgb(8, 15, 15);
+    color: rgb(8, 15, 15);
+}
+#services h1 {
+    color: #592366;
 }
 
-/* .servicesbtn{
-    flex: mx-auto 
-    mt-16 
-     bg-indigo-500 
-     border-0 py-2 px-8 
-    hover:bg-indigo-600 rounded text-lg
-    focus:outline-none;
-}
-.servicesbtn:hover{
-    rounded text-lg
-} */
-.services h3 {
-    color: rgb(68, 94, 147);
-}
-
-.services h2 {
-    color: rgb(68, 94, 147);
+#services h2 {
+    color: #592366;
 }
 
 .leftservices {
@@ -177,27 +164,28 @@ nav ul li a:hover {
     justify-content: flex-end;
 }
 
-/* Portfolio Section */
+/* Team Section */
 .team {
-    background-color: rgb(8, 15, 15);
     color: rgb(164, 186, 183);
-    
+
 }
+
 .team h2 {
-    color: rgb(68, 94, 147);
+    color: #AC91B3;
 }
-.text-gray-500{
+
+.text-gray-500 {
     color: rgb(164, 186, 183)
 }
+
 /* Contact Section */
 .contact {
-    background-color: rgb(164, 186, 183);
-    color: rgb(8, 15, 15);
+    color: #AC91B3;
     margin: 0;
 }
 
 .contact h1 {
-    color: rgb(68, 94, 147);
+    color: #592366;
     font-size: 2rem;
 }
 
@@ -210,7 +198,8 @@ nav ul li a:hover {
 .formgroup {
     margin-bottom: 20px;
 }
-#send:hover{
+
+#send:hover {
     color: white;
 }
 
@@ -235,27 +224,26 @@ nav ul li a:hover {
 .formgroup button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: rgb(68, 94, 147);
-    color: rgb(164, 186, 183);
+    background-color: #AC91B3;
+    color: #592366;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 5px;
+    font-weight: 700;
 }
 
 
 /* Footer */
 footer {
-    background-color: rgb(8, 15, 15);
-    color: rgb(164, 186, 183);
+    background-color: black;
+    color: #AC91B3;
     padding: 20px;
     text-align: center;
 }
 
 a {
     text-decoration: none;
-    color: rgb(164, 186, 183);
+    color: #592366;
 }
 
 a:hover {
@@ -265,6 +253,16 @@ a:hover {
 /* Responsive Design */
 
 @media screen and (max-width: 2000px) {
-
-
-}
+    .nav a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  
+    .nav .icon {
+      display: block;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+    }
+  }
